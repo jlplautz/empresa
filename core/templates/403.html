@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <article>
+    <h2>Acesso negado</h2>
+    <p>Voce não tem permissão para acessar esta págica.</p>
+    <a href="{% url 'core:index' %}">Voltar para o inicio</a> 
+  </article>
+{% endblock %}
+
